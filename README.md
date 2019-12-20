@@ -10,13 +10,13 @@ I want to add some **bold text** and some *italic text* for the memes too.  Heck
 
 Below is a list of a few of my favorite things!
 
-*Bunnies
-*Snowboarding
-*Wakeboarding
-*Reading
+* Bunnies
+* Snowboarding
+* Wakeboarding
+* Reading
 
 I wonder if this is an ordered list???
 
-**number one
-**number two
-**number three swags
+** number one
+** number two
+** number three swags

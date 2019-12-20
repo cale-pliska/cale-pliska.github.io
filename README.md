@@ -8,6 +8,10 @@ I would like to provide a link to...
 
 I want to add some **bold text** and some *italic text* for the memes too.  Heck, lets add a 'supper' and 'supper dooper' tags.
 
+
+![shred](Shred.jpg)
+
+
 Below is a list of a few of my favorite things!
 
 * Bunnies

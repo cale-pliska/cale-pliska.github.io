@@ -3,8 +3,8 @@
 
 I love to learn, shred, and create.  But in actuality, I had to learn the fundamentals of shred, and shredding is just one method I enjoy creating with.  Meaning, I really just love to learn.
 
-I would like to provide a link to [wikipedia]
-(https://en.wikipedia.org/wiki/Outline_of_academic_disciplines)
+I would like to provide a link to...
+[Jekyll homepage](http://jekyllrb.com/ "Jekyll")
 
 I want to add some **bold text** and some *italic text* for the memes too.  Heck, lets add a 'supper' and 'supper dooper' tags.
 

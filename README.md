@@ -11,6 +11,8 @@ I want to add some **bold text** and some *italic text* for the memes too.  Heck
 
 ![shred](/assets/images/Shred.jpg)
 
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+
 
 Below is a list of a few of my favorite things!
 

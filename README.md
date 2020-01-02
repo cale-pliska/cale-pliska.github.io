@@ -9,9 +9,9 @@ I would like to provide a link to...
 I want to add some **bold text** and some *italic text* for the memes too.  Heck, lets add a 'supper' and 'supper dooper' tags.
 
 
-![shred](/assets/images/Shred.jpg)
+![shred](/assets/images/shred.jpg)
 
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/philly-magic-garden.jpg "Philadelphia's Magic Garden")
 
 
 Below is a list of a few of my favorite things!

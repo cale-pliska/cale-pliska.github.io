@@ -1,7 +1,7 @@
 # Cale Pliska
 {: .intro}
 
-I love to learn, shred, and create.  But in actuality, I had to learn the fundamentals of shred, and shredding is just one method I enjoy creating with.  Meaning, I really just love to learn.
+Elevate your impact by synthesizing and simplifying your content for your learners.  Our lives are cluttered with fragmented information which distracts our learners from building with information.
 
 I would like to provide a link to...
 [Jekyll homepage](http://jekyllrb.com/ "Jekyll")

@@ -1,7 +1,9 @@
-# Cale Pliska
+# What is on This Site?
 {: .intro}
-
-Elevate your impact by synthesizing and simplifying your content for your learners.  Our lives are cluttered with fragmented information which distracts our learners from building with information.
+* Synthesis of Cale's cold writings, journals, and videos logs from the last 10 years
+* Synthesis of Cale's snowboarding, wakeboarding, and skateboarding experiences
+* Proritized ranking of Cale's best ideas over the last 10 years
+* Other fun synthesis projects
 
 I would like to provide a link to...
 [Jekyll homepage](http://jekyllrb.com/ "Jekyll")

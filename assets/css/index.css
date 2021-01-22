@@ -55,7 +55,6 @@
 .contact-me-button{
     width: 20%;
     background-color: black;
-    color: grey;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 1px;
@@ -64,3 +63,14 @@
 .contact-me-button:hover{
     color: hsl(200, 70%, 50%);
 }
+
+.footer-style{
+    margin: auto;
+    height: 20px;
+    background-color: black;
+}
+
+.footer-style:hover{
+    background-color: hsl(200, 70%, 50%);
+}
+

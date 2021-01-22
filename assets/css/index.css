@@ -1,0 +1,66 @@
+/*helpers*/
+.p5{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.m2{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.debug{
+    border-style: solid;
+}
+
+.txt-title{
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+/* navigation bar */
+.navbar-block{
+    background-color: black;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2px;
+}
+
+.nav-txt{
+    text-align: center;
+    color: grey;
+}
+
+.nav-txt:hover{
+    color: hsl(200, 70%, 50%);
+}
+
+/* cover image section */
+
+.container-fluid{
+    background-color:black;
+    color: red;
+}
+
+.row{
+    display: flex;
+}
+
+.vert-mid{
+    margin-top: 40%;
+    color: white;
+}
+
+/*footer*/
+.contact-me-button{
+    width: 20%;
+    background-color: black;
+    color: grey;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.contact-me-button:hover{
+    color: hsl(200, 70%, 50%);
+}

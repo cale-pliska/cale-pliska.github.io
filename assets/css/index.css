@@ -1,76 +1,11 @@
-/*helpers*/
-.p5{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.m2{
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.debug{
-    border-style: solid;
-}
-
-.txt-title{
-    overflow-wrap: break-word;
-    text-align: center;
-}
-
-/* navigation bar */
-.navbar-block{
-    background-color: black;
-    width: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2px;
-}
-
-.nav-txt{
-    text-align: center;
-    color: grey;
-}
-
-.nav-txt:hover{
-    color: hsl(200, 70%, 50%);
-}
-
-/* cover image section */
-
-.container-fluid{
-    background-color:black;
-    color: red;
-}
-
-.row{
+.landing-page-container {
     display: flex;
 }
 
-.vert-mid{
-    margin-top: 40%;
-    color: white;
+.landing-page-saying {
+    min-width: 35%;
+    margin: auto 2% auto 0;
+    font-size: x-large;
+    vertical-align: center;
+    color: var(--accentcolor);
 }
-
-/*footer*/
-.contact-me-button{
-    width: 20%;
-    background-color: black;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 1px;
-}
-
-.contact-me-button:hover{
-    color: hsl(200, 70%, 50%);
-}
-
-.footer-style{
-    margin: auto;
-    height: 20px;
-    background-color: black;
-}
-
-.footer-style:hover{
-    background-color: hsl(200, 70%, 50%);
-}
-

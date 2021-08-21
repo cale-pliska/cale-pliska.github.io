@@ -3,7 +3,7 @@
 
 <head>
   <title>Cale</title>
-  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/impact.css" />
   <link rel="stylesheet" href="assets/css/core.css" />
 
   <!-- loading the jquery library -->
@@ -14,7 +14,7 @@
   <!-- load header and footer html files into the header and footer divs -->
   <script>
     $(function () {
-      $("#navbar").load("navbar.html");
+      $("#header").load("header.html");
       $("#footer").load("footer.html");
     });
   </script>
@@ -23,26 +23,27 @@
 
 <body>
 
-  <!-- js will grab header.html and display it where id = "header"-->
-  <div id="navbar"></div>
+  <div id="header"></div>
 
-  <!-- Cale close-up image with saying -->
-  <div class="landing-page-container">
-    <div class="landing-cover-image">
-      <img src="assets/images/longhair.jpg" width="100%" height="auto"></img>
-    </div>
-    <div class="landing-page-saying">
-      <h1>Dedicated to making change.</h1>
+  <div class="first">
+    <div></div> <!-- -->
+    <div class="impact-grid">
+      <div>
+        <h1>ScholarLinq</h1>
+      </div>
+      <div>
+        <p>ScholarLinq helps students find amazing scholarships and write incredible scholarship essays.</p>
+      </div>
+      <div>
+        <h4>learn more at <a href="www.scholarlinq.com">ScholarLinq.</a></h4>
+      </div>
     </div>
   </div>
-
 
 </body>
 
 <footer>
   <div id="footer"></div>
 </footer>
-
-<script src="assets/js/index.js"></script>
 
 </html>

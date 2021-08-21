@@ -1,0 +1,93 @@
+/*this applies to every html page on the site*/
+:root {
+    --backgroundcolor: black;
+    --modalbgcolor: rgba(240, 240, 240, 0.5);
+    --primarycolor: grey;
+    --secondarycolor: rgba(255, 255, 255, 1);
+    --accentcolor: lightgreen;
+}
+
+html {
+    background-color: var(--backgroundcolor);
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+/* navigation bar */
+.navbar-container {
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container div {
+    padding: 0 2% 0 2%;
+}
+
+.navbar-container a:link,
+.navbar-container a:visited {
+    color: var(--primarycolor);
+    text-decoration: none;
+}
+
+.navbar-container a:hover {
+    color: var(--accentcolor);
+}
+
+/* for modals */
+.is-hidden {
+    display: none;
+}
+
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modalbgcolor);
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 70%;
+    border-radius: 2%;
+    padding: 5%;
+    background-color: var(--secondarycolor);
+    text-align: center;
+}
+
+/* for forms */
+.form-container {
+    display: block;
+}
+
+.field {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+.footer-saying {
+    color: var(--backgroundcolor);
+    margin: 5% 0;
+    text-align: center;
+    font-size: x-large;
+    background: radial-gradient(circle, rgba(144, 238, 144, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}

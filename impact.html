@@ -3,8 +3,9 @@
 
 <head>
   <title>Cale</title>
-  <link rel="stylesheet" href="assets/css/impact.css" />
   <link rel="stylesheet" href="assets/css/core.css" />
+  <link rel="stylesheet" href="assets/css/impact.css" />
+
 
   <!-- loading the jquery library -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -14,7 +15,7 @@
   <!-- load header and footer html files into the header and footer divs -->
   <script>
     $(function () {
-      $("#header").load("header.html");
+      $("#navbar").load("navbar.html");
       $("#footer").load("footer.html");
     });
   </script>
@@ -23,27 +24,18 @@
 
 <body>
 
-  <div id="header"></div>
+  <!-- js will grab header.html and display it where id = "header"-->
+  <div id="navbar"></div>
 
-  <div class="first">
-    <div></div> <!-- -->
-    <div class="impact-grid">
-      <div>
-        <h1>ScholarLinq</h1>
-      </div>
-      <div>
-        <p>ScholarLinq helps students find amazing scholarships and write incredible scholarship essays.</p>
-      </div>
-      <div>
-        <h4>learn more at <a href="www.scholarlinq.com">ScholarLinq.</a></h4>
-      </div>
-    </div>
-  </div>
+  <h1>hello</h1>
+
 
 </body>
 
 <footer>
   <div id="footer"></div>
 </footer>
+
+<script src="js/impact.js"></script>
 
 </html>

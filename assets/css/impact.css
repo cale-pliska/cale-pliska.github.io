@@ -1,13 +1,3 @@
-.first {
-    display: grid;
-    grid-template-columns: 10fr 80fr 10fr;
-}
-
-.impact-grid {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-}
-
-h1, h4 {
-    text-align: center;
+body {
+    color: var(--primarycolor);
 }

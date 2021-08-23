@@ -1,48 +1,53 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Cale</title>
-  <link rel="stylesheet" href="assets/css/index.css" />
-  <link rel="stylesheet" href="assets/css/core.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cale</title>
 
-  <!-- loading the jquery library -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-  </script>
+    <link rel="stylesheet" href="css/index.css">
 
-  <!-- load header and footer html files into the header and footer divs -->
-  <script>
-    $(function () {
-      $("#navbar").load("navbar.html");
-      $("#footer").load("footer.html");
-    });
-  </script>
+    <!-- load jquery library -->
+    <!-- loading the jquery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous">
+    </script>
+
+    <!-- load in the headers & footers files -->
+    <script>
+        $(document).ready(function () {
+            $("#navbar").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 
 </head>
 
 <body>
 
-  <!-- js will grab header.html and display it where id = "header"-->
-  <div id="navbar"></div>
+    <!-- bg modal -->
 
-  <!-- Cale close-up image with saying -->
-  <div class="landing-page-container">
-    <div class="landing-cover-image">
-      <img src="assets/images/longhair.jpg" width="100%" height="auto"></img>
-    </div>
-    <div class="landing-page-saying">
-      <h1>Dedicated to making change.</h1>
-    </div>
-  </div>
+    <header>
+        <div id="navbar"></div>
+    </header>
 
+    <!-- image and tag-line -->
+    <div class="landing-page-container">
+        <div class="landing-img">
+            <img src="images/longhair.jpg" alt="A cool picture of Cale.">
+        </div>
+        <div class="landing-saying">
+            <div>
+                <h1>Dedicatd to making a difference.</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
 
 </body>
-
-<footer>
-  <div id="footer"></div>
-</footer>
-
-<script src="js/index.js"></script>
 
 </html>

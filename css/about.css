@@ -1,0 +1,14 @@
+.title-container {
+    margin: 2% 5%;
+    color: var(--accentcolor)
+}
+
+.content-container {
+    margin: 0 5% 5% 5%;
+    padding: 1%;
+    display: grid;
+    border-radius: var(--radiusSmall);
+    background-color: var(--primarycolor);
+    color: var(--bgcolor);
+
+}

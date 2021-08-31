@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cale</title>
+    <title>Fun</title>
 
     <!-- css -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fun.css">
+
 
     <!-- jquery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -32,21 +34,20 @@
         <div id="navbar"></div>
     </header>
 
-    <!-- image and tag-line -->
-    <div class="landing-page-container">
-        <!-- image -->
-        <div class="landing-img">
-            <img src="images/longhair.jpg" alt="A cool picture of Cale.">
-        </div>
-        <!-- tag-line -->
-        <div class="landing-saying">
-            <div>
-                <h1>Cale Pliska</h1>
-                <h4>Applications are gateways to the opportunities you have access to. If you know how to master how you
-                    are perceived in your applications, you have the best chances to get into your dream program, earn
-                    scholarships, or land that dream job.</h4>
+    <div class="fun-container">
+        <form id="fun-form">
+            <div class="field">
+                <label>
+                    What is your favorite color? [ie: cyan]
+                </label>
+                <input type="text" id="favorite-color-response">
             </div>
-        </div>
+            <div class="field" id="fun-form-submit">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+        <div class="color-output"></div>
     </div>
 
     <footer>
@@ -54,5 +55,8 @@
     </footer>
 
 </body>
+
+<!-- loading navbar js -->
+<script src="scripts/fun.js"></script>
 
 </html>

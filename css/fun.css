@@ -1,0 +1,28 @@
+.fun-container {
+    display: block;
+    margin: 3%;
+    font-size: 3vw;
+}
+
+.fun-container .field {
+    margin: 4%;
+}
+
+.color-output {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+input {
+    font-size: 100%;
+    height: 5vh;
+    margin-left: 2%;
+    margin: 1%;
+}
+
+button {
+    height: 5vh;
+    width: auto;
+    font-size: 80%;
+}

@@ -1,22 +1,16 @@
 .fun-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 3%;
     font-size: 3vw;
 }
 
-.fun-container .field {
-    margin: 4%;
-}
-
-.color-output {
-    height: 100px;
-    width: 100%;
-    margin: auto;
+.field {
+    font-size: 100%;
 }
 
 input {
-    font-size: 100%;
-    height: 5vh;
+    height: 100%;
     margin-left: 2%;
     margin: 1%;
 }
@@ -25,4 +19,10 @@ button {
     height: 5vh;
     width: auto;
     font-size: 80%;
+}
+
+.color-output {
+    height: 100px;
+    width: 100%;
+    margin: auto;
 }

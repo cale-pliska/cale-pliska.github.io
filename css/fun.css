@@ -6,7 +6,7 @@
 }
 
 .field {
-    font-size: 4vw;
+    font-size: 2.5vh;
 }
 
 input {
@@ -17,6 +17,7 @@ input {
 }
 
 input[type=text] {
+    font-size: 80%;
     width: 100%;
     padding: 10px;
 }

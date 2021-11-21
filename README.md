@@ -4,6 +4,7 @@
 The static web files are stored in an aws s3 bucket.  To push changes to live site update the contents of the s3 bucket.
 
 ### Sync current directory "." into s3 bucket
+Your current directory should be C:\Users\calep\OneDrive\Documents\Personal Website\github\cale-pliska.github.io
 ~~~
 aws s3 sync . s3://calepliska.com
 ~~~

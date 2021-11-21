@@ -6,9 +6,7 @@ submitBtn.addEventListener("click", function (e) {
     e.preventDefault();
 
     // get user favorite color input
-    var favoriteColor = document.getElementById("favorite-color-response").value;
-
-    // todo clean user input so all is lower case ect.
+    var favoriteColor = document.getElementById("favorite-color-response").value.toLowerCase();
 
     //match input to colors data
     //color name to hex code data

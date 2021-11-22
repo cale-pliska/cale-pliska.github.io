@@ -1,3 +1,6 @@
+console.log(db);
+
+
 // get from submit id
 var submitBtn = document.querySelector("#fun-form-submit");
 
@@ -7,6 +10,9 @@ submitBtn.addEventListener("click", function (e) {
 
     // get user favorite color input
     var favoriteColor = document.getElementById("favorite-color-response").value.toLowerCase();
+
+    // TODO: add value to firebase database
+    
 
     //match input to colors data
     //color name to hex code data

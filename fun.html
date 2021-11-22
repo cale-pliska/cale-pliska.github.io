@@ -79,7 +79,40 @@
 
 </body>
 
-<!-- loading navbar js -->
+<!-- TODO: UPDATE below  SDKS -->
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+<script>
+    // TODO
+    // Copy **only** your firebaseConfig from Google Firebae and add it below
+
+    // Your web app's Firebase configuration
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAMm4o0jL8IsZjWYnObwC29iZgzSgHiDOs",
+        authDomain: "cale-pliska-website-ext.firebaseapp.com",
+        projectId: "cale-pliska-website-ext",
+        storageBucket: "cale-pliska-website-ext.appspot.com",
+        messagingSenderId: "638801673707",
+        appId: "1:638801673707:web:79ea55ab5961fd89ff6dae"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    let auth = firebase.auth();
+    let db = firebase.firestore();
+</script>
 <script src="scripts/fun.js"></script>
+
 
 </html>

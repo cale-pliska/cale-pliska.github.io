@@ -11,11 +11,34 @@ submitBtn.addEventListener("click", function (e) {
     // get user favorite color input
     var favoriteColor = document.getElementById("favorite-color-response").value.toLowerCase();
 
-    // TODO: add value to firebase database
-    colorData = {"color entry": favoriteColor};
-    
-    db.collection('Colors').add(colorData).then((data) => {
+    //add value to firebase database
+    db.collection('Colors').doc(favoriteColor).set({
+        "Color Name": favoriteColor
+    })
+    .then((data) => {
         console.log("FEEDBACK COLLECTED!");
+
+        //display the contents of the data in the div below
+
+        //read data from firebase
+        docRef = db.collection('Colors').doc(favoriteColor);
+
+        docRef.get().then((doc) => {
+            var HTML = `<p>You have changed the color to ${favoriteColor}!</p>`
+
+            console.log(doc.data());
+
+            HTML += `<p>the other data is ${doc.data()["Color Name"]}.</p>`;
+            
+            outputBlock = document.querySelector("#color-output");
+            outputBlock.innerHTML = HTML;
+        });
+
+
+
+
+    }).catch((error) => {
+        console.error("Error writing document: ", error);
     });
 
     //match input to colors data
@@ -31,7 +54,7 @@ submitBtn.addEventListener("click", function (e) {
 
                 var elements = document.getElementsByClassName('color-output'); // get all elements - only one in our code
                 for(var i = 0; i < elements.length; i++){
-                    elements[i].style.backgroundColor = colorRGB; //change bg color for all html elements matching 'fun-container' class
+                    elements[i].style.backgroundColor = colorRGB; //change bg color for all html elements matching 'color-output' class in the 'fun-container' class
                 }
             }
         }

@@ -16,7 +16,8 @@ input {
     padding: 0;
 }
 
-input[type=text] {
+input[type=text],
+input[type=email] {
     font-size: 80%;
     width: 100%;
     padding: 10px;
@@ -29,7 +30,6 @@ button {
 }
 
 .color-output {
-    height: 100px;
     width: 100%;
     margin: auto;
 }

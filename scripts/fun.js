@@ -1,10 +1,13 @@
-console.log(db);
 
 
-// get from submit id
-var submitBtn = document.querySelector("#fun-form-submit");
+/*
+when users type in a color, it finds the color data in data/color.json and changes the color of the below div based on the color data.  The users submitted data is also posted to google Firestore, read back to the application and also posted on the below div.
+*/
 
-submitBtn.addEventListener("click", function (e) {
+// get from submit id.  Note: I attached id from the button but you can also attach it to the form.
+var submitColorBtn = document.querySelector("#submit-color");
+
+submitColorBtn.addEventListener("click", function (e) {
     //don't reload page after hitting submit btn
     e.preventDefault();
 
@@ -26,7 +29,7 @@ submitBtn.addEventListener("click", function (e) {
 
             HTML = `
             <p>You have changed the color to ${favoriteColor}!</p>
-            <p>the other data is ${doc.data()["Color Name"]}.</p>
+            <p>the data pulled from the db is ${doc.data()["Color Name"]}.</p>
             
             `;
             
@@ -55,4 +58,35 @@ submitBtn.addEventListener("click", function (e) {
             }
         }
     });
+});
+
+/*
+TODO: add description
+*/
+
+// login
+var loginBtn = document.querySelector("#login-btn");
+
+loginBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    let email = document.querySelector("#login-email").value;
+    let password = document.querySelector("#login-password").value;
+
+    console.log(email, password);
+
+    // pass username and password to firebase
+    // auth.signInWithEmailAndPassword(email, password)
+
+});
+
+// sign in
+var signInBtn = document.querySelector("#sign-in-btn");
+
+signInBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    let email = document.querySelector("#login-email").value;
+    let password = document.querySelector("#login-password").value;
+    
 });

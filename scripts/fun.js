@@ -12,7 +12,11 @@ submitBtn.addEventListener("click", function (e) {
     var favoriteColor = document.getElementById("favorite-color-response").value.toLowerCase();
 
     // TODO: add value to firebase database
+    colorData = {"color entry": favoriteColor};
     
+    db.collection('Colors').add(colorData).then((data) => {
+        console.log("FEEDBACK COLLECTED!");
+    });
 
     //match input to colors data
     //color name to hex code data

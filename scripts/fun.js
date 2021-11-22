@@ -61,7 +61,7 @@ submitColorBtn.addEventListener("click", function (e) {
 });
 
 /*
-TODO: add description
+Add login and sign up that authenticates users and displays content only to authenticated users.
 */
 
 // login
@@ -81,7 +81,7 @@ loginBtn.addEventListener("click", function (e) {
 });
 
 // sign in
-var signInBtn = document.querySelector("#sign-in-btn");
+var signInBtn = document.querySelector("#sign-up-btn");
 
 signInBtn.addEventListener("click", function (e) {
     e.preventDefault();

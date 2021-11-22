@@ -27,6 +27,7 @@ button {
     height: 100%;
     width: auto;
     font-size: 100%;
+    gap: 20px;
 }
 
 .color-output {

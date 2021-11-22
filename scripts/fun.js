@@ -73,12 +73,13 @@ loginBtn.addEventListener("click", function (e) {
     let email = document.querySelector("#login-email").value;
     let password = document.querySelector("#login-password").value;
 
-    console.log(email, password);
-
     // pass username and password to firebase
-    // auth.signInWithEmailAndPassword(email, password)
+    auth.signInWithEmailAndPassword(email, password).then(() => {
+        console.log("User is signed in!");
+    });
 
 });
+
 
 // sign in
 var signInBtn = document.querySelector("#sign-up-btn");
@@ -89,4 +90,33 @@ signInBtn.addEventListener("click", function (e) {
     let email = document.querySelector("#login-email").value;
     let password = document.querySelector("#login-password").value;
     
+    auth.createUserWithEmailAndPassword(email, password);
 });
+
+// sign out
+var signOutBtn = document.querySelector("#sign-out-btn");
+
+signOutBtn.addEventListener("click", function (e) {
+    auth.signOut()
+})
+
+// keep track of user authentication status (signin or signout)  When authentication changes, run these functions
+auth.onAuthStateChanged((user) => {
+    if (user) {
+        displaySpecialContent(user);
+    }
+    else {
+        console.log("the user is now signed out!");
+    }
+})
+
+//displaying different content based on authentication status of users
+function displaySpecialContent(user) {
+    //check if user is passed to function (signed in)
+    if (user) {
+        console.log("they are LOGGED IN!");
+        var specialContent = document.querySelector("#special-content");
+
+        specialContent.innerHTML = "BOO!"
+    }
+}

@@ -8,27 +8,27 @@ submitBtn.addEventListener("click", function (e) {
     //don't reload page after hitting submit btn
     e.preventDefault();
 
-    // get user favorite color input
+    // get user favorite color input and make it lowercase
     var favoriteColor = document.getElementById("favorite-color-response").value.toLowerCase();
 
-    //add value to firebase database
+    //add value to firebase database, read data from firebase and display it on the page.
     db.collection('Colors').doc(favoriteColor).set({
         "Color Name": favoriteColor
     })
     .then((data) => {
         console.log("FEEDBACK COLLECTED!");
 
-        //display the contents of the data in the div below
-
         //read data from firebase
         docRef = db.collection('Colors').doc(favoriteColor);
 
         docRef.get().then((doc) => {
-            var HTML = `<p>You have changed the color to ${favoriteColor}!</p>`
 
-            console.log(doc.data());
 
-            HTML += `<p>the other data is ${doc.data()["Color Name"]}.</p>`;
+            HTML = `
+            <p>You have changed the color to ${favoriteColor}!</p>
+            <p>the other data is ${doc.data()["Color Name"]}.</p>
+            
+            `;
             
             outputBlock = document.querySelector("#color-output");
             outputBlock.innerHTML = HTML;

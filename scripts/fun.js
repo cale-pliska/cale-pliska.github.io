@@ -32,11 +32,7 @@ submitBtn.addEventListener("click", function (e) {
             
             outputBlock = document.querySelector("#color-output");
             outputBlock.innerHTML = HTML;
-        });
-
-
-
-
+        })
     }).catch((error) => {
         console.error("Error writing document: ", error);
     });

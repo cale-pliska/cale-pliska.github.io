@@ -105,10 +105,7 @@ auth.onAuthStateChanged((user) => {
     if (user) {
         displaySpecialContent(user);
     }
-    else {
-        console.log("the user is now signed out!");
-    }
-})
+});
 
 //displaying different content based on authentication status of users
 function displaySpecialContent(user) {

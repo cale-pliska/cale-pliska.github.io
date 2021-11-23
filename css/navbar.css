@@ -1,4 +1,15 @@
 /* navbar */
+@media screen and (max-width: 30em) {
+    .navbar-container {
+        justify-content: flex-end;
+    }
+
+    .navbar-container .nav-header {
+        display: block;
+        margin: 5% 5% 0 0;
+    }
+}
+
 .navbar-container {
     display: flex;
     justify-content: center;

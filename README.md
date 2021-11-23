@@ -1,14 +1,16 @@
 # AWS DEPLOYMENT
 
 ## Pushing changes to live site
-The static web files are stored in an aws s3 bucket.  To push changes to live site update the contents of the s3 bucket.
+The static web files are stored in an aws s3 bucket.  To push changes to live site update the contents of the s3 bucket.  Your current directory should be C:\Users\calep\OneDrive\Documents\Personal Website\github\cale-pliska.github.io
 
-### Sync current directory "." into s3 bucket
-Your current directory should be C:\Users\calep\OneDrive\Documents\Personal Website\github\cale-pliska.github.io
+### View all files (including .git) in directory.
 ~~~
-aws s3 sync . s3://calepliska.com
+Get-ChildItem . -Force
 ~~~
-
+### Sync current directory "." into s3 bucket excluding .git
+~~~
+aws s3 sync . s3://calepliska.com --exclude '.git/*'
+~~~
 ### Check contents of s3 bucket
 ~~~
 aws s3 ls s3://calepliska.com

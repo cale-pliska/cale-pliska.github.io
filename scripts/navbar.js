@@ -7,11 +7,11 @@ var closeNavIcon = document.querySelector("#close-nav");
 
 // expanding nav bar in a mobile style on click
 burgerBtn.addEventListener("click", function () {
-    //switch css classes from web to mobile
-    document.querySelector("#navbar-container").classList.remove("navbar-container");
-    document.querySelector("#navbar-container").classList.add("navbar-container-mobile");
 
-    // populate close nav icon with html and add css so it acts like a nav-item on mobile
+    // hide the burger button in the nav header
+    burgerBtn.style.display = "none";
+
+    // populate close nav icon with the burger button
     var closeNavHtml = 
     `
     <i class="fas fa-bars" id="nav-burger-icon-close"></i>
@@ -41,7 +41,6 @@ closeNavIcon.addEventListener("click", function() {
     // remove class nav-item to close-nav div
     closeNavIcon.classList.remove("nav-icon-drop-down");
 
-    // switch css classes from mobile to web
-    document.querySelector("#navbar-container").classList.remove("navbar-container-mobile");
-    document.querySelector("#navbar-container").classList.add("navbar-container");
+    burgerBtn.style.display = "flex";
+
 });

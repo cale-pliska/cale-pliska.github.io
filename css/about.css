@@ -13,6 +13,6 @@
     box-shadow: 10px 10px var(--accentcolorLight);
 }
 
-.content-container {
-    padding: 5px;
+.content-read-more {
+    display: none;
 }

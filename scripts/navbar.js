@@ -14,7 +14,7 @@ burgerBtn.addEventListener("click", function () {
     // populate close nav icon with the burger button
     var closeNavHtml = 
     `
-    <i class="fas fa-bars" id="nav-burger-icon-close"></i>
+    <i class="fas fa-bars fa-lg" id="nav-burger-icon-close"></i>
     `;
     closeNavIcon.innerHTML = closeNavHtml;
     // add class nav-item to close-nav div - this is the icon users use to close the nav menue

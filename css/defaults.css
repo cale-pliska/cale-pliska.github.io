@@ -4,9 +4,9 @@
     --primarycolor: grey;
     --primarycolorLight: rgba(128, 128, 128, 0.25);
     --accentcolor: lightgreen;
-    --accentcolorLight: rgba(144, 238, 144, 0.25);
+    --accentcolorLight: rgba(184, 230, 184, 0.308);
     --radiusLarge: 5vw;
-    --radiusSmall: 2vw;
+    --radiusSmall: 1vw;
 }
 
 body {
@@ -35,8 +35,8 @@ h1 {
     font-size: 5vw;
 }
 
+/* for font awesome icons */
 i {
-    font-size: 2rem;
     color: var(--accentcolor);
 }
 

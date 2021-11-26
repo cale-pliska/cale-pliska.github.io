@@ -4,30 +4,3 @@
     background: radial-gradient(circle, var(--accentcolor) 0%, var(--bgcolor) 100%, var(--bgcolor) 100%);
     color: var(--bgcolor);
 }
-
-/* @media screen and (max-width: 30em) {
-    .navbar-container {
-        justify-content: flex-end;
-    }
-
-    .navbar-container .nav-header {
-        display: block;
-        margin: 5% 5% 0 0;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    p {
-        font-size: 4vw;
-    }
-
-    h3 {
-        font-size: 5vw;
-    }
-
-    h1 {
-        font-size: 7vw;
-    }
-} */

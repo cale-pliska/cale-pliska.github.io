@@ -9,7 +9,7 @@
     display: grid;
     background-color: var(--primarycolor);
     /* color: var(--bgcolor); */
-    box-shadow: 3px 10px var(--accentcolor);
+    box-shadow: 5px 5px var(--accentcolor);
 }
 
 .content-read-more {

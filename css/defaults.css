@@ -15,13 +15,13 @@ body {
     padding: 0;
     background-color: var(--bgcolor);
     background-image: linear-gradient(90deg, rgba(2, 0, 36, .7) 0%, rgba(0, 0, 0, 0.92) 15%, rgba(0, 0, 0, 0.92) 85%, rgba(0, 0, 0, .7) 100%), url("../images/cheekybackground.png");
+    background-repeat: repeat;
     color: var(--textcolor);
     font-family: "Brush Script MT";
 }
 
 p {
     font-size: 2vw;
-    font-weight: bold;
     margin: 1.5%;
 }
 
@@ -76,5 +76,4 @@ body .content {
     background-color: var(--primarycolor);
     border-radius: var(--radiusLarge);
     padding: 2%;
-    color: var(--bgcolor);
 }

@@ -34,7 +34,7 @@
 
 .landing-saying {
     text-align: center;
-    margin-right: 5%;
+    margin: 0 5%;
     display: flex;
     align-items: center;
 }

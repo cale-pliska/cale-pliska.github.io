@@ -3,17 +3,19 @@
     --modalbgcolor: rgba(0, 0, 0, 0.75);
     --primarycolor: grey;
     --primarycolorLight: rgba(128, 128, 128, 0.25);
-    --accentcolor: lightgreen;
+    --accentcolor: rgb(144, 238, 144);
     --accentcolorLight: rgba(184, 230, 184, 0.308);
     --radiusLarge: 5vw;
     --radiusSmall: 1vw;
 }
 
 body {
-    margin: 0;
+    margin: 0 5%;
     padding: 0;
     background-color: var(--bgcolor);
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, .7) 0%, rgba(0, 0, 0, 0.92) 15%, rgba(0, 0, 0, 0.92) 85%, rgba(0, 0, 0, .7) 100%), url("../images/cheekybackground.png");
     color: var(--primarycolor);
+    font-family: "Brush Script MT";
 }
 
 p {

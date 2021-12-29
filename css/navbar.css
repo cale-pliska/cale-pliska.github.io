@@ -1,5 +1,9 @@
 /* navbar */
 
+.navbar-container {
+    background-color: var(--textcolor);
+    margin-bottom: 3%;
+}
 
 /* mobile viewing */
 @media screen and (max-width: 30em) {

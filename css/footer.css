@@ -1,5 +1,6 @@
 /* footer */
 .footer-container {
+    margin-top: 10%;
     text-align: center;
     background: radial-gradient(circle, var(--accentcolor) 0%, var(--bgcolor) 100%, var(--bgcolor) 100%);
     color: var(--bgcolor);

@@ -7,10 +7,9 @@
     margin: 0 5% 5% 5%;
     padding: 1%;
     display: grid;
-    /* border-radius: var(--radiusSmall); */
     background-color: var(--primarycolor);
-    color: var(--bgcolor);
-    box-shadow: 10px 10px var(--accentcolorLight);
+    /* color: var(--bgcolor); */
+    box-shadow: 3px 10px var(--accentcolor);
 }
 
 .content-read-more {

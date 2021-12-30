@@ -1,7 +1,4 @@
-let readMore = document.createTextNode(". . .");
 let $teaser = $(".content-teaser")
-
-$teaser.append(readMore);
 
 $teaser.click(function () {
 

@@ -4,7 +4,6 @@
     --primarycolor: rgb(34, 33, 33);
     --primarycolorLight: rgba(128, 128, 128, 0.25);
     --accentcolor: rgb(144, 238, 144);
-    --accentcolorLight: rgba(184, 230, 184, 0.308);
     --radiusLarge: 5vw;
     --radiusSmall: 1vw;
     --textcolor: whitesmoke;
@@ -14,7 +13,7 @@ body {
     margin: 0 0;
     padding: 0;
     background-color: var(--bgcolor);
-    background-image: linear-gradient(90deg, rgba(2, 0, 36, .7) 0%, rgba(0, 0, 0, 0.92) 15%, rgba(0, 0, 0, 0.92) 85%, rgba(0, 0, 0, .7) 100%), url("../images/cheekybackground.png");
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, .7) 0%, rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.85) 85%, rgba(0, 0, 0, .7) 100%), url("../images/cheekybackground.png");
     background-repeat: repeat;
     color: var(--textcolor);
     font-family: "Brush Script MT";
@@ -41,6 +40,7 @@ h1 {
 /* for font awesome icons */
 i {
     color: var(--accentcolor);
+    padding-bottom: 3%;
 }
 
 body .content {

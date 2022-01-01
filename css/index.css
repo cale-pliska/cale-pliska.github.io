@@ -1,35 +1,37 @@
 /* landing page */
+
+/* mobile */
 @media screen and (max-width: 768px) {
 
     .landing-page-container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        justify-content: center;
         width: 100%;
         margin: 2%;
     }
 
-    .landing-img img {
-        float: right;
-        max-width: 55%;
-        height: auto;
+    .landing-img {
+        width: 50%;
+        margin: 10% auto;
     }
 }
 
-.landing-page-container {
-    display: flex;
-    width: 100%;
-}
+/* laptop and desktop */
+@media screen and (min-width: 768px) {
+    .landing-page-container {
+        display: flex;
+        width: 100%;
+    }
 
-.landing-img {
-    min-width: 35%;
+    .landing-img {
+        min-width: 35%;
+    }
 
-}
-
-.landing-img img {
-    width: 100%;
-    height: auto;
+    .landing-img img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .landing-saying {

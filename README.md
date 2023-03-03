@@ -1,3 +1,7 @@
+# About This Site
+
+This is the code for my personal site.  I did not use any built in libraries, I built all the functionality from scratch using JS, CSS, and HTML.  This site is currently hosted on AWS.
+
 # AWS DEPLOYMENT
 
 ## Pushing changes to live site

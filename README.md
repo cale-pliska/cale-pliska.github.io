@@ -1,6 +1,6 @@
 # About This Site
 
-This is the code for my personal site.  I did not use any built in libraries, I built all the functionality from scratch using JS, CSS, and HTML.  This site is currently hosted on AWS.
+This is the code for my personal site.  I did not use any built in libraries, I built all the functionality from scratch using JS, CSS, and HTML.  This site is currently hosted on AWS.  However, I also have a version on Google Cloud using Firebase.
 
 # AWS DEPLOYMENT
 
